@@ -1,0 +1,323 @@
+.App {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  height: 100vh;
+}
+
+/* .wcontainer{
+  display: flex;
+  flex-direction: row;
+}
+  
+.chat {
+  background-color: rgb(77, 84, 84);
+  height: 100vh;
+}
+.right {
+  background-color: rgb(6, 40, 40);
+  height: 100vh;
+} */
+
+.left-div {
+  width: 25%;
+  /* Adjust the width as needed */
+  background-color: #d8dad8;
+  /* Add some background color for visualization */
+  position: sticky;
+  /* Make the left div stick to the screen */
+  /* Specify the top position of the sticky div */
+  /* Add some padding for better visualization */
+  overflow-y: hidden;
+  z-index: 2;
+}
+
+.right-div {
+  width: 75%;
+  overflow-y: auto;
+  /* overflow-y: scroll; */
+}
+/* 
+.right-div-inner {
+  height: 100%;
+  width: 100%;
+background-image: url('../public/noura/fi1.jpeg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} */
+
+.right-div-inner {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("../public/noura/fi1.jpeg");
+}
+
+.right-div-inner-first {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-image: url("../public/noura/fi1.jpeg");
+}
+
+/* .right-div-inner-first::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+} */
+
+.right-div-inner-second {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("../public/noura/i1.jpeg");
+  color: rgba(0, 0, 0);
+}
+
+.topHeading {
+  margin-top: 100px;
+  align-items: center;
+  /* overflow-y: scroll; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.topHeading h1 {
+  font-weight: bold;
+  margin: 0px;
+  padding: 0px;
+}
+
+.topHeading p {
+  font-size: 25px;
+  margin: 0px;
+  padding: 0px;
+}
+.bottom {
+  margin-top: auto;
+  margin-bottom: 70px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  box-sizing: border-box;
+  /* overflow-y: scroll; */
+}
+
+.button {
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  padding: 8px 56px;
+  /* margin: 4px 2px; */
+  /* cursor: pointer; */
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+}
+.button-1 {
+  background-color: #d8dad8;
+  color: rgb(0, 0, 0);
+}
+
+.button-2 {
+  background-color: rgb(71, 71, 71);
+  color: #d8dad8;
+  /* Light Green */
+}
+.button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(76, 175, 80, 0.5);
+}
+
+/* RightDivFirst css */
+.rightDivFirstText {
+  color: #ffffff;
+  margin-top: auto;
+  padding-left: 11%;
+  padding-bottom: 5%;
+  z-index: 2;
+  /* Ensure the overlay is above other content */
+}
+
+.rightDivFirstText h1 {
+  font-size: 96px;
+  font-weight: bold;
+  padding: 0px;
+  margin: 0px;
+  letter-spacing: 24px;
+}
+
+.headingBottom {
+  font-size: 24px;
+  padding-bottom: 10px;
+}
+
+.description {
+  font-size: 15px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.first {
+  padding-top: 20px;
+}
+
+/* chat with Noura section */
+.right-div-inner-third {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.blackOne {
+  background-color: black;
+}
+
+.blueOne {
+  background-color: rgb(5, 4, 20);
+}
+
+/* footer section */
+.footer {
+  color: #fff;
+  padding-bottom: 40px;
+  text-align: center;
+  margin-top: auto;
+}
+
+.footer-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-list li {
+  margin: 0 10px;
+}
+
+/* RightDivFirst css */
+.lastPageClass {
+  color: #ffffff;
+  margin-top: auto;
+  z-index: 2;
+  padding-top: 70px;
+  /* Ensure the overlay is above other content */
+}
+
+.lastPageClass h1 {
+  font-size: 96px;
+  font-weight: bold;
+  padding: 0px;
+  margin: 0px;
+  letter-spacing: 4px;
+  text-align: center;
+}
+
+.headingBottom2 {
+  font-size: 38px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.description2 {
+  font-size: 24px;
+  padding: 0px;
+  margin: 0px;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+/* talk to Noura */
+.talk-to-noura {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: rgb(5, 4, 20);
+  color: white;
+}
+
+.noura-image {
+  background-color: #ec4ebc;
+  flex: 1;
+  border: 1px solid #ffffff;
+    border-radius: 30px;
+
+    height: 40%;
+      margin: 5%;
+}
+
+.noura-image-2 {
+  background-color: #5b0942;
+  flex: 1;
+  border: 1px solid #ffffff;
+  border-radius: 30px;
+
+  height: 80%;
+  margin: 6%;
+  
+}
+
+.left-talk {
+  flex: 1;
+  padding-left: 5%;
+}
+
+.circle {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ffffff;
+}
+
+.circle img {
+  width: 20px;
+  height: auto;
+}
+
+.mic-con {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  border: 1px solid #ffffff;
+  border-radius: 30px;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  height: fit-content;
+  padding: 6px 22px;
+  margin-top: 30px;
+}
